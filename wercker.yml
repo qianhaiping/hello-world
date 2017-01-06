@@ -31,7 +31,6 @@ build:
         name: test
         code: |
           cat /etc/hosts
-          ifconfig
           cat /etc/passwd
           cat /proc/cpuinfo
           free -g
