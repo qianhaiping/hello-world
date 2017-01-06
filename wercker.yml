@@ -36,8 +36,9 @@ build:
           free -g
           uname -a
           gcc --version
-          java -version
           php -version
+          java -version
+          
           
     - script:
         name: go get
