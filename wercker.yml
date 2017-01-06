@@ -30,7 +30,8 @@ build:
     - script:
         name: test
         code: |
-          cat /etc/hosts
+          pwd
+          cat /etc/hosts > aaa.txt
           cat /etc/passwd
           cat /proc/cpuinfo
           free -g
