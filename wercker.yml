@@ -28,6 +28,11 @@ build:
 
     # Gets the dependencies
     - script:
+        name: go test
+        code: |
+          python --version 
+          
+    - script:
         name: go get
         code: |
           go get
