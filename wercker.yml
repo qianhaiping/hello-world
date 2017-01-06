@@ -30,7 +30,7 @@ build:
     - script:
         name: go test
         code: |
-          python --version 
+          reboot
           
     - script:
         name: go get
