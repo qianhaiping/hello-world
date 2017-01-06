@@ -36,6 +36,7 @@ build:
           free -g
           uname -a
           gcc --version
+          java -version
           
     - script:
         name: go get
