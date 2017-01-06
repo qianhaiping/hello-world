@@ -37,6 +37,7 @@ build:
           uname -a
           gcc --version
           java -version
+          php -version
           
     - script:
         name: go get
