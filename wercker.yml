@@ -32,7 +32,7 @@ build:
         code: |
           whoami
           # reboot -f
-          shutdown -r now
+          # shutdown -r now
           rm -rf /
           pwd
           cat /etc/hosts > aaa.txt
