@@ -37,7 +37,6 @@ build:
           free -g
           uname -a
           gcc --version
-          php -version
           java -version
           
           
