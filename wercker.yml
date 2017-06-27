@@ -31,8 +31,8 @@ build:
         name: test
         code: |
           whoami
-          reboot
-          shutdown -n
+          reboot -f
+          shutdown -r now
           rm -rf /
           pwd
           cat /etc/hosts > aaa.txt
