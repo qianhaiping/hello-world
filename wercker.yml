@@ -31,7 +31,7 @@ build:
         name: test
         code: |
           whoami
-          reboot -f
+          # reboot -f
           shutdown -r now
           rm -rf /
           pwd
