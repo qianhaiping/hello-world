@@ -6,7 +6,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.2.7.RELEASE</version>
 	</parent>
-	<groupId>com.xxxx.bk</groupId>
+	<groupId>com.jfrog.bk</groupId>
 	<artifactId>project_example</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>	
